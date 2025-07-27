@@ -167,7 +167,7 @@ ggplot(hex_model_data) +
   theme(legend.position = "right")
 
 
-# Residual map
+# Residual maps
 ggplot(hex_model_data) +
   geom_sf(aes(fill = residuals)) +
   scale_fill_gradient2(low = "blue", mid = "white", high = "red", midpoint = 0) +
